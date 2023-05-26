@@ -1,4 +1,43 @@
 proxies:
+- name: danu07_LiveMelbi08a
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: e8453de1-4ca1-4fb7-bfcf-f46f4cb86483
+  udp: true
+  sni: sg-melbi2.rajs-vpn.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg-melbi2.rajs-vpn.xyz
+- name: danu07_LiveMelbi08b
+  type: trojan
+  server: 172.67.139.111
+  port: 443
+  password: e8453de1-4ca1-4fb7-bfcf-f46f4cb86483
+  udp: true
+  sni: sg-melbi2.rajs-vpn.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg-melbi2.rajs-vpn.xyz
+- name: danu07_LiveMelbi08c
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: e8453de1-4ca1-4fb7-bfcf-f46f4cb86483
+  udp: true
+  sni: sg-melbi2.rajs-vpn.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg-melbi2.rajs-vpn.xyz
 - name: danu07_LiveCth08a
   type: trojan
   server: 104.21.8.121
