@@ -1,4 +1,43 @@
 proxies:
+- name: danu07_LiveDO08a
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: efb7f2b2-fcbf-4b61-b48f-f6c3af5c6060
+  udp: true
+  sni: do2.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: do2.myserver-prem.cloud
+- name: danu07_LiveDO08b
+  type: trojan
+  server: 172.67.139.111
+  port: 443
+  password: efb7f2b2-fcbf-4b61-b48f-f6c3af5c6060
+  udp: true
+  sni: do2.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: do2.myserver-prem.cloud
+- name: danu07_LiveDO08c
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: efb7f2b2-fcbf-4b61-b48f-f6c3af5c6060
+  udp: true
+  sni: do2.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: do2.myserver-prem.cloud
 - name: danu07_LiveMelbi08a
   type: trojan
   server: 104.21.8.121
