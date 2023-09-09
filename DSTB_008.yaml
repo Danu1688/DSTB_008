@@ -1,7 +1,7 @@
 proxies:
 - name: Vilanus_LiveDO_1
   type: trojan
-  server: 104.21.8.121
+  server: circles.asia
   port: 443
   password: 16d55814-0927-4733-8b32-7a3436235460
   udp: true
